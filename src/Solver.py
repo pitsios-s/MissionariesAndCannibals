@@ -17,7 +17,7 @@ class Solver:
         # The worlds that remain to be explored.
         worlds_to_explore = [self.world]
 
-        # Keep a set of worlds allready created, in order to avoid duplicates.
+        # Keep a set of worlds already created, in order to avoid duplicates.
         worlds_visited = []
 
         # Now search for possible solutions.
